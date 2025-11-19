@@ -1,10 +1,16 @@
 # UI screenshots:
-
-<img width="1729" height="1022" alt="Screenshot 2024-12-01 194440" src="https://github.com/user-attachments/assets/cb452774-aeac-4549-82ad-cc77d63d70a8" />
-<img width="1727" height="1023" alt="Screenshot 2024-12-01 194402" src="https://github.com/user-attachments/assets/84ed3710-c743-45d0-9f51-77a077cf1baf" />
-<img width="1730" height="1025" alt="Screenshot 2024-12-01 194332" src="https://github.com/user-attachments/assets/e5dd3d37-83cb-414e-9d9b-363a093d0e73" />
-<img width="1732" height="1023" alt="Screenshot 2024-12-01 194255" src="https://github.com/user-attachments/assets/e7cfa349-cc9e-4828-8c7d-83436434f5f9" />
-<img width="1732" height="1028" alt="Screenshot 2024-12-01 194221" src="https://github.com/user-attachments/assets/e8659bcb-2920-468c-84e6-fad01fce03d3" />
-<img width="1727" height="1028" alt="Screenshot 2024-12-01 194152" src="https://github.com/user-attachments/assets/c57e7cf6-68d4-4f8d-af8a-522b21170328" />
-<img width="1731" height="1021" alt="Screenshot 2024-12-01 194532" src="https://github.com/user-attachments/assets/35d7fc69-eb2b-431d-a966-c601592cd5c7" />
-<img width="1732" height="1023" alt="Screenshot 2024-12-01 194507" src="https://github.com/user-attachments/assets/b9f3f2f1-f303-44b2-a0de-ee710f9086c8" />
+## Login
+<img width="1727" height="1028" alt="Screenshot 2024-12-01 194152" src="https://github.com/user-attachments/assets/816c7a3f-99ba-454d-94e1-77b2e8482e64" />
+## Index
+<img width="1732" height="1028" alt="Screenshot 2024-12-01 194221" src="https://github.com/user-attachments/assets/4bd89c27-6e1b-4c21-8bf9-b1edf21560c6" />
+## Add Customer page
+<img width="1732" height="1023" alt="Screenshot 2024-12-01 194255" src="https://github.com/user-attachments/assets/fbafb60c-5108-4c9e-8394-1a682b9bab50" />
+## View Customers
+<img width="1730" height="1025" alt="Screenshot 2024-12-01 194332" src="https://github.com/user-attachments/assets/c64b3921-6526-44a2-927a-b52d2607d126" />
+## Booking Room
+<img width="1727" height="1023" alt="Screenshot 2024-12-01 194402" src="https://github.com/user-attachments/assets/22f76fa9-3498-40f5-99b6-7675c7063dd0" />
+## Bookings List
+<img width="1729" height="1022" alt="Screenshot 2024-12-01 194440" src="https://github.com/user-attachments/assets/687aba9b-c48c-46c4-b332-90b8acfd6d04" />
+## Cancel Bookings
+<img width="1732" height="1023" alt="Screenshot 2024-12-01 194507" src="https://github.com/user-attachments/assets/cbf5cfaf-755a-4196-a018-fc48aa647b61" />
+<img width="1731" height="1021" alt="Screenshot 2024-12-01 194532" src="https://github.com/user-attachments/assets/f89f6061-5fa2-4d1a-9f5a-b3c8b79e61f9" />
