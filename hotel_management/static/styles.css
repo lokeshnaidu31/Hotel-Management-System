@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -18,7 +17,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Navigation Menu */
 nav {
     background: #3498db;
     padding: 15px 10px;
@@ -29,7 +27,6 @@ nav {
     z-index: 1000;
 }
 
-/* Button Container Styling */
 .button-container {
     display: flex;
     flex-wrap: wrap; 
@@ -44,7 +41,6 @@ nav {
     margin: 0; 
 }
 
-/* Button Styling */
 nav a {
     color: #fff;
     text-decoration: none;
@@ -62,7 +58,6 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* Form Styling */
 form {
     max-width: 600px;
     margin: 30px auto;
@@ -108,7 +103,6 @@ form button:hover {
     transform: translateY(-2px);
 }
 
-/* Table Styling */
 table {
     width: 90%;
     margin: 20px auto;
@@ -140,11 +134,11 @@ table tr:hover {
     transition: background-color 0.3s ease;
 }
 
-/* Button Styling */
+
 button, .btn {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #ffc0cb; /* Soft Pink */
+    background-color: #ffc0cb; 
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -155,12 +149,11 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background-color: #ffb6c1; /* Lighter Pink */
+    background-color: #ffb6c1; 
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer Styling */
 footer {
     text-align: center;
     padding: 15px;
@@ -181,3 +174,4 @@ footer a {
 footer a:hover {
     color: #16a085;
 }
+
