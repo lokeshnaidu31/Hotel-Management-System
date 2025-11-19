@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View and Cancel Bookings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Bookings for User ID: {{ user_id }}</h1>
+    {% if bookings %}
+        <table>
+            <tr>
+                <th>Booking ID</th>
+                <th>Room Type</th>
+                <th>Check-In Date</th>
+                <th>Check-Out Date</th>
+                <th>Total Price</th>
+                <th>Action</th>
+            </tr>
+            {% for booking in bookings %}
+            <tr>
+                <td>{{ booking[0] }}</td>
+                <td>{{ booking[1] }}</td>
+                <td>{{ booking[2] }}</td>
+                <td>{{ booking[3] }}</td>
+                <td>{{ booking[4] }}</td>
+                <td>
+                    <form method="POST" action="/cancel_booking/{{ booking[0] }}/{{ booking[5] }}">
+                        <button type="submit">Cancel</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No bookings found for this user.</p>
+    {% endif %}
+    <a href="/" class="btn">Back to Home</a>
+</body>
+</html>

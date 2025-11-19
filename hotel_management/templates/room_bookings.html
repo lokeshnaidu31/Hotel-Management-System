@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room Bookings</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Bookings for Room ID: {{ room_id }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Customer ID</th>
+                <th>Name</th>
+                <th>Check-in Date</th>
+                <th>Check-out Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for booking in bookings %}
+            <tr>
+                <td>{{ booking[0] }}</td>
+                <td>{{ booking[1] }}</td>
+                <td>{{ booking[2] }}</td>
+                <td>{{ booking[3] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/">Back to Home</a>
+</body>
+</html>
