@@ -20,7 +20,7 @@ def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
         if 'user_id' not in session:
-            return redirect('/login')  # Redirect to login if not authenticated
+            return redirect('/login')  
         return f(*args, **kwargs)
     return decorated_function
 
@@ -54,7 +54,7 @@ def logout():
 def cancel_bookings():
     if request.method == 'POST':
         user_id = request.form['user_id']
-        # Fetch all bookings for the given user
+
         query = """
         SELECT b.booking_id, r.room_type, b.check_in_date, b.check_out_date, b.total_price, r.room_id
         FROM bookings b
@@ -70,9 +70,8 @@ def cancel_bookings():
 @login_required
 def cancel_booking(booking_id, room_id):
     try:
-        # Delete the booking
+        
         cursor.execute("DELETE FROM bookings WHERE booking_id = %s", (booking_id,))
-        # Mark the room as available
         cursor.execute("UPDATE rooms SET is_available = TRUE WHERE room_id = %s", (room_id,))
         db.commit()
         return redirect('/cancel_bookings')
@@ -145,3 +144,4 @@ def view_bookings():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
